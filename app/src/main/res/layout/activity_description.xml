@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#37F1F1"
+    tools:context=".DescriptionAct">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:id="@+id/DesImageView"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="News"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#E80528"
+        android:id="@+id/descTitle"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="mmainNews"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:id="@+id/descNews"/>
+
+
+</LinearLayout>
