@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
                 mainListView.adapter = NewsAdapter(this, arrOfNews)
             },
             Response.ErrorListener {
-                Toast.makeText(this, "Network Ki Chas mudi hui hh", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Network Not Available", Toast.LENGTH_LONG).show()
             })
         queue.add(jsonOb)
     }
